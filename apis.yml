@@ -1,23 +1,73 @@
 aid: quintessent-communications
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quintessent-communications.png
 name: Quintessent Communications
-description: Quintessent Communications is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Quintessent is a deep-tech photonics startup based in Goleta, California,
+  developing optical connectivity solutions that address the communication
+  bottlenecks in large-scale computing and AI infrastructure. The company builds
+  chip-to-chip optical interconnect technology grounded in quantum-dot laser
+  epitaxy, and has established supply chains for quantum-dot epitaxial wafers
+  used in AI optical interconnects. Quintessent is a hardware and semiconductor
+  photonics company rather than a software/API provider; it exposes no public
+  developer portal, API, SDK, or documentation surface. Backed by Battery
+  Ventures, Entrada Ventures, Foothill Ventures, and Sierra Ventures, with
+  research funding from DARPA, ARPA-E, and the NSF, the company was surfaced as a
+  venture-portfolio lead and profiled here for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/quintessent-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- entrada-ventures
+- foothill-ventures
+- sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Photonics
+- Optical Interconnects
+- Semiconductors
+- Quantum Dot Lasers
+- AI Infrastructure
+- Deep Tech
+- Hardware
+common:
+- type: Website
+  url: https://www.quintessent.com
+- type: About
+  url: https://www.quintessent.com/about
+- type: Team
+  url: https://www.quintessent.com/our-team
+- type: Careers
+  url: https://www.quintessent.com/careers
+- type: Blog
+  url: https://www.quintessent.com/news
+- type: Contact
+  url: https://www.quintessent.com/contact
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
